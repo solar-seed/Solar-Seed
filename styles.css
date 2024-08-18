@@ -14,7 +14,7 @@ header {
 
 /* navbar-responsive */
 .navbar-toggler{
-    background:#2c32c9;
+    background:#1aa42a;
     border-radius: 50%;
     border: none;
 }
@@ -38,7 +38,8 @@ header {
     color: #000;
     text-decoration: none;
     transition: color 0.3s, transform 0.5s;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 10px;
 }
 
 /* Estilo para el subrayado animado */
@@ -50,14 +51,14 @@ header {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #3d496b;
+    background-color: #20bb35;
     transform-origin: bottom right;
     transition: transform 0.3s ease-out;
 }
 
 /* Efecto al pasar el cursor */
 .nav-link:hover {
-    color: #3d496b; /* Cambia el color del texto si lo deseas */
+    color: #1aa42a; /* Cambia el color del texto si lo deseas */
     transform: scale(1.1);
 }
 
@@ -68,7 +69,7 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: #6e8dbf !important;
+    color: #1aa42a !important;
 }
 
 /* -------------main */
@@ -119,7 +120,7 @@ header {
 }
 
 .hero-text img.logo {
-    width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    width: 300px; 
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
@@ -191,9 +192,11 @@ header {
 .nosotros-text h2 {
     font-size: 28px;
     margin-bottom: 10px;
+    
 }
 .nosotros-text h2:hover {
-    color: #1589a5;
+    color: #1aa42a;
+    
 }
 
 .nosotros-text p {
@@ -273,7 +276,7 @@ header {
     text-align: center;
 }
 .h2carrousel:hover {
-    color: #1589a5;
+    color: #1aa42a;
 }
 
 .section-trabajos {
@@ -296,19 +299,6 @@ header {
         line-height: 1.6;
         text-align: justify;
 }
-
-
-/* carrouseles
-.carousel-caption {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco tenue */
-    /* padding: 10px 5px;
-    border-radius: 5px;
-    width: auto; /* Ajusta el ancho según sea necesario */
-/* } */ 
 
 .carousel-caption h5,
 .carousel-caption p {
@@ -336,7 +326,7 @@ header {
 /* Responsiveness */
 @media (max-width: 768px) {
     .h2carrousel:hover {
-        color: #1589a5;
+        color:#1aa42a;
     }
     .Trabajos-text p{
         font-size: 18px;
@@ -377,6 +367,7 @@ header {
     margin-right: 20px;
     padding-bottom: 80px;
     margin: 0;
+    line-height: 1.6;
 }
 
 .servicios-text h2 {
@@ -392,14 +383,14 @@ header {
 }
 
 .servicios-text h2:hover {
-    color: #1589a5;
+    color:#1aa42a;
 }
 
 .realizacion {
     display: inline-block;
     text-align: center;
     font-size: 28px;
-    color: #274081;
+    color: #deb10f;
     position: relative;
     text-decoration: none;
     transition: color 0.9s ease, transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -409,7 +400,7 @@ header {
 }
 
 .realizacion:hover {
-    color: #366dda;
+    color: #d0c30f;
     transform: scale3d(1.1, 1.1, 1.8);
 }
 
@@ -466,6 +457,9 @@ header {
     padding: 0 20px;
 }
 
+.text h4:hover{
+    color:#1aa42a;
+}
 .servicio .text h4 {
     font-size: 24px;
     margin: 0 0 10px;
@@ -593,7 +587,7 @@ header {
 
  .formulario-contacto h1{
     text-align: center;
-    color:#2c32c9;
+    color:#1aa42a;
  }
 
 .formulario-contacto form {
@@ -618,7 +612,7 @@ header {
 }
 
 .formulario-contacto form input[type="submit"] {
-    background-color: #2c32c9;
+    background-color:#094c11;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -632,9 +626,9 @@ header {
 }
 .formulario-contacto form input[type="submit"]:hover{
     background-color: #fff;
-    color:#2c32c9;
+    color:#094c11;
     border-radius: 25px;
-    border-color: #2c32c9;
+    border-color:#094c11;
     border: 2px solid
 }
 .grid-datos {
@@ -700,7 +694,7 @@ header {
 .footer{
     position: relative;
     width: 100%;
-    background: #2c32c9;
+    background: #0a250d;
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
@@ -757,7 +751,7 @@ header {
 }
 
 .menu-icon:hover{
-    opacity: 5;
+    opacity: 50;
 }
 
 .derechos_reservados{
